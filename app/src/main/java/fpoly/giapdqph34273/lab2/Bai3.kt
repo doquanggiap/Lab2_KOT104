@@ -1,8 +1,10 @@
 package fpoly.giapdqph34273.lab2
 
 fun main() {
+    println("Kiểm tra năm nhuận")
     var year: Int
 
+    // validate và nhập năm
     while (true) {
         try {
             print("Nhập năm: ")
@@ -17,6 +19,7 @@ fun main() {
         }
     }
 
+    // in ra kết quả
     println(namNhuan(year))
 }
 
